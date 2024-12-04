@@ -3,4 +3,4 @@ os: linux
 files:
   - source: ./index.html # The source directory in your revision (e.g., S3 bucket, Git repo)
     destination: /var/www/html # Target directory on the instance
-    overwrite: true
+file_exists_behavior: OVERWRITE
