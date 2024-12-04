@@ -1,2 +1,5 @@
 version: 0.0
 os: linux
+files:
+  - source: / # The source directory in your revision (e.g., S3 bucket, Git repo)
+    destination: /var/www/html # Target directory on the instance
